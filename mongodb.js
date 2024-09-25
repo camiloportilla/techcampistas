@@ -11,3 +11,8 @@ export const connectToDB =  mongoose.connect(connectionString).then(()=> {
 
 export default connectToDB;
 
+console.log('DB_STRING:', process.env.DB_STRING);
+
+
+
+
